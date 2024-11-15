@@ -1,7 +1,7 @@
-# Bone Cancer Prediction
+# Nuts Classification
 
 ## Description
-This is colaborative team project of 4 members, where we were tasked with building 2 prediction model using different algorithms and compare both the algorithms based on some metric (e.g. accuracy, precision, etc), then display the comparision in the form of graph. 
+This is colaborative team project of 4 members, where we were tasked with building 2 classification models using different algorithms and compare both the algorithms based on some metric (e.g. accuracy, precision, etc), then display the comparision in the form of graph. 
 
 We should then test the model in:
 1) Jenkins
@@ -10,7 +10,7 @@ We should then test the model in:
 
 
 ### Our Approach
-We used *Linear Regression* and *Random Forest Regression* as the algorithms to build this model. We chose R², MAE (Mean Absolute Error) and MSE (Mean Squared Error) as the metrics for prediction, and used **matplotlib** library for plotting comparison graph of the 2 algorithms.
+We used *Logistic Regression* and *Random Forest Regression* as the algorithms to build this model. We chose R², MAE (Mean Absolute Error) and MSE (Mean Squared Error) as the metrics for prediction, and used **matplotlib** library for plotting comparison graph of the 2 algorithms.
 
 Then, displayed the results using flask.
 
